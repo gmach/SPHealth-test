@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="https://www.biggestloserclub.com.au/includes/Styles/BLC/Australia/Registration/A.fonts.css.pagespeed.cf.Q9pr7F1a5b.css">
+        <link rel="stylesheet" href="css/cheque.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+		<script src="js/vendor/knockout-3.0.0.js"></script>
+		<script src="js/vendor/accounting.min.js"></script>
+    </head>
+    <body>
+		<div class="wrapper">
+			<div class="divSection">
+				<div class="formSec">
+					<h2 class="secTitle">Enter the details of the cheque</h2>
+					<div class="padLayer cf">
+						<div class="FieldRow cf">
+							<label for="Email">Name</label>
+							<div class="FieldInput">
+								<input data-bind="value: name" class="text-box single-line" id="Name" name="Name" type="text" required="required">
+							</div>
+						</div>
+
+						<div class="FieldRow cf">
+							<label for="Email">Date</label>
+							<div class="FieldInput">
+								<input data-bind="value: date" class="text-box single-line"  id="Date" name="Date" type="date" required="required">
+							</div>
+						</div>
+
+						<div class="FieldRow cf">
+							<label for="Email">Amount</label>
+							<div class="FieldInput">
+								<input data-bind="value: amount" class="text-box single-line" id="Amount" name="Amount" type="number" required="required"  step="any"  min="0">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="chqWrapper">
+				<div id="chqDate" data-bind="text: date"></div>
+				<div id="chqName" data-bind="text: name"></div>
+				<div id="chqAmountText" data-bind="text: textAmount"></div>
+				<div id="chqAmountNumber" data-bind="text: formattedAmount"></div>
+			</div>
+		</div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

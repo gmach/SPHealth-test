@@ -1,0 +1,155 @@
+/* Author: Gavin Mach */
+
+body {
+	background: #E3E2E2
+}
+
+.wrapper {
+	width: 880px;
+	margin: 0 auto 15px;
+	position: relative;
+	background: #FFFFFF;
+	padding: 40px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.borderradius .wrapper {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.boxshadow  .wrapper {
+	-moz-box-shadow: 0 2px 3px #999999;
+	-webkit-box-shadow: 0 2px 3px #999999;
+	box-shadow: 0 2px 3px #999999;
+}
+
+.divSection {
+	font-size: 16px;
+	font-family: 'ProximaNovaRgRegular', Helvetica, Arial, sans-serif;
+}
+
+.divSection div.FieldRow {
+	clear: both;
+	padding-top: 5px;
+}
+
+.cf {
+	overflow: auto;
+}
+
+.divSection .formSec {
+	background: #fbfbfb;
+	padding: 25px 25px 15px;
+	margin: 0 0 30px;
+}
+
+.borderradius .divSection .formSec  {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.divSection .formSec h2.secTitle {
+	background: transparent;
+	color: #174d97;
+	font-size: 18px;
+	margin: 0;
+	padding: 0 0 5px;
+	font-weight: normal;
+	font-family: 'ProximaNovaRgBold', Helvetica, Arial, sans-serif;
+}
+
+.divSection .formSec h2.secTitle {
+	padding-bottom: 15px;
+}
+
+.divSection div.FieldRow label {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 42px;
+	min-height: 1px;
+	width: 145px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.divSection div.FieldRow .FieldInput {
+	width: 302px;
+	float: left;
+}
+
+.divSection input {
+	border: 1px solid #e5e5e5;
+	width: 280px;
+	height: auto;
+	line-height: 16px;
+	padding: 8px 10px;
+	color: #6e6e6e;
+	font-size: 1em;
+}
+
+.borderradius .divSection input  {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.boxshadow  .divSection input  {
+	-moz-box-shadow: 0 3px 2px #EEE;
+	-moz-box-shadow: 0 3px 2px rgba(0, 0, 0, .05);
+	-webkit-box-shadow: 0 3px 2px #EEE;
+	-webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, .05);
+	box-shadow: 0 3px 2px #EEE;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, .05);
+}
+
+
+.divSection input[type=date] {
+	height: 19px;
+	width: 160px;
+}
+
+.chqWrapper {
+	background-color: #E3E2E2;
+	background: url('../img/StgeorgeCheque.png');
+	width: 900px;
+	height: 405px;
+	position: relative;
+}
+
+#chqDate {
+	position: absolute;
+	top: 140px;
+	left: 712px;
+	font-size: 1.5em;
+}
+
+#chqName {
+	position: absolute;
+	bottom: 222px;
+	left: 25px;
+	font-size: 20px;
+	word-wrap: break-word;
+	width: 600px;
+}
+
+#chqAmountNumber {
+	position: absolute;
+	top: 209px;
+	left: 712px;
+	font-size: 1.5em;
+}
+
+#chqAmountText {
+	position: absolute;
+	bottom: 152px;
+	left: 25px;
+	font-size: 20px;
+	word-wrap: break-word;
+	width: 600px;
+}
